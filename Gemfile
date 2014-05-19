@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
 gem 'turbolinks'
+gem 'rails_12factor'
 
 group :development, :test do
   gem 'sqlite3'

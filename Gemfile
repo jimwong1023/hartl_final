@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.1'
 gem 'turbolinks'
 gem 'rails_12factor'
+gem 'bootstrap-sass', '2.1'
+gem 'sprockets', '2.11.0'
 
 group :development, :test do
   gem 'sqlite3'

@@ -6,10 +6,15 @@ gem 'turbolinks'
 gem 'rails_12factor'
 gem 'bootstrap-sass', '2.1'
 gem 'sprockets', '2.11.0'
+gem 'bcrypt-ruby', '3.1.2'
 
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
+end
+
+group :devlopment do
+  gem 'annotate', '2.5.0'
 end
 
 group :assets do

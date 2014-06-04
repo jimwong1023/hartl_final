@@ -7,7 +7,6 @@ gem 'rails_12factor'
 gem 'bootstrap-sass', '2.1'
 gem 'sprockets', '2.11.0'
 gem 'bcrypt-ruby', '3.1.2'
-gem 'pg'
 
 group :development, :test do
   gem 'sqlite3'
